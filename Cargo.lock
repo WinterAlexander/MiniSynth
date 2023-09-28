@@ -2129,6 +2129,7 @@ name = "mini_synth"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "crossbeam-channel",
 ]
 
 [[package]]
