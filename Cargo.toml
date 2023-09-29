@@ -9,6 +9,7 @@ edition = "2021"
 # bevy = { version = "0.11.2", features = [] }
 # TODO reenable dyn lib for desktop
 bevy = { version = "0.11.2", features = [ "dynamic_linking"] }
+crossbeam-channel = "0.5.8"
 
 [profile.dev]
 opt-level = 1
